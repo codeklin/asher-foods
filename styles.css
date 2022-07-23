@@ -1,0 +1,32 @@
+/* start styles */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=VT323&display=swap");
+
+body {
+  margin: 0;
+  background: #444;
+  font-family: "Poppins";
+}
+li,
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+main {
+  padding: 140px 40px 40px;
+  color: #bbb;
+}
+
+/* solution styles */
+
+.menu {
+}
+
+.header {
+  background: rgb(80, 47, 47);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  color: #eee;
+}
