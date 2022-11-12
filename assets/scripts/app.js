@@ -4,4 +4,16 @@ const collapsibleMenu = document.querySelector('.collapsible-menu');
 
 menuToggler.addEventListener('click', () => {
     navbar.classList.toggle('show-menu');
+
+    if (navbar.classList.contains('show-menu')) {
+        collapsibleMenu.style.maxHeight = collapsibleMenu.scrollHeight + 'px';
+        setTimeout(() => {
+            collapsibleMenu.style.overflow = 'visible';
+        }, 600);
+    } else {
+        collapsibleMenu.style.maxHeight = '0px';
+        collapsibleMenu.style.overflow = 'hidden';
+
+
+    }
 });
